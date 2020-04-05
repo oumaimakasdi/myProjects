@@ -28,15 +28,12 @@ body {
    transform: translate(-50%, -65%);
 }
 nav {
-  width: 100%;
+  width: 400px;
   height: 50px;
   position: relative;
+  transform: translate(120%);
+}
 
-}
-ul {
-  transform: translate(36%,50%);
-  position: relative;
-}
 ul li {
   list-style: none;
   display: inline-block;
