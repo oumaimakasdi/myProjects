@@ -26,4 +26,4 @@ Modification de Amine le 05/04/20
 ## Liens utiles :
 
   - [Validateur CSS](https://jigsaw.w3.org/css-validator/#validate_by_uri)
-	- [Validateur XHTML](https://validator.nu)
+  - [Validateur XHTML](https://validator.nu)
