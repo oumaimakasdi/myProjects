@@ -11,6 +11,12 @@ body {
   height: 100%;
   width: 100%;
 }
+
+#container > header {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 #main{
   padding-bottom: 120px;
 }
@@ -19,19 +25,25 @@ body {
    width: 300px;
    position: relative;
    margin: 0 auto;
+   transition: transform .2s;
 }
+
 .logodiv img{
-  width: 550px;
-  position: absolute;
-   top: 50%;
-   left: 93%;
-   transform: translate(-50%, -65%);
+  width: 200%;
+  position:  absolute;
+  transform: translateY(-45%);
+  pointer-events: none;
 }
+
+.logodiv:hover {
+  transform: scale(1.05);
+}
+
 nav {
   width: 400px;
   height: 50px;
   position: relative;
-  transform: translate(120%);
+  margin: 0 auto;
 }
 
 ul li {
