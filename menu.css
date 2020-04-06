@@ -21,17 +21,22 @@ body {
    margin: 0 auto;
 }
 .logodiv img{
-  width: 550px;
+  width: 250px;
   position: absolute;
    top: 50%;
-   left: 93%;
-   transform: translate(-50%, -65%);
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+ul{
+  display: flex;
+  flex-wrap: nowrap;
 }
 nav {
   width: 400px;
   height: 50px;
   position: relative;
-  transform: translate(120%);
+  transform: translate(450px);
+  background-color: green;
 }
 
 ul li {
@@ -58,4 +63,14 @@ ul li a:hover{
   bottom: 0;
   width: 100%;
   height: 120px;
+}
+
+.footerdiv{
+
+}
+.footer1{
+
+}
+.footer2{
+
 }
