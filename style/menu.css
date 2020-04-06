@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +30,6 @@ body {
 }
 
 .logodiv img{
-
   width: 100%;
   position:  absolute;
   transform: translateY(5%);
@@ -72,3 +72,14 @@ ul li a:hover{
   width: 100%;
   height: 120px;
 }
+
+.footerdiv{
+
+}
+.footer1{
+}
+.footer2{
+
+}
+
+
