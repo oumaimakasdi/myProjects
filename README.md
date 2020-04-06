@@ -14,7 +14,7 @@ Modification de Oum le 05/04/20
 
   - Création du logo
   - Creation de la page menu.html
-  - Creation du nav 
+  - Creation du nav
   - Création du footer
   - Création du CSS pour les èlements d'avant
 
@@ -22,3 +22,8 @@ Modification de Amine le 05/04/20
 
   - Réorganisation des fichiers
   - Vérification de la validation du fichier CSS et HTML
+
+## Liens utiles :
+
+  - [Validateur CSS](https://jigsaw.w3.org/css-validator/#validate_by_uri)
+	- [Validateur XHTML](https://validator.nu)
