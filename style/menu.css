@@ -29,9 +29,10 @@ body {
 }
 
 .logodiv img{
-  width: 200%;
+
+  width: 100%;
   position:  absolute;
-  transform: translateY(-45%);
+  transform: translateY(5%);
   pointer-events: none;
 }
 
