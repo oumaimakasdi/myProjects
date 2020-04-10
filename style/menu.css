@@ -84,5 +84,13 @@ ul li a:hover{
   float: left;
 }
 .footer2{
-  padding: 0 300px;
+  padding: 0 250px;
+}
+
+.footer1 >img{
+  width: 20px;
+}
+.footer1 >p{
+  display: inline-block;
+
 }
