@@ -107,7 +107,8 @@ ul li a:hover{
 }
 .footer2 img{
   width:35px;
-  margin-right:20px;
+  margin-right:10px;
+  margin-left: 10px;
 }
 .footer1 h3,.footer3 h3{
   font-family: 'Quicksand', sans-serif;
