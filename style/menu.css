@@ -78,13 +78,14 @@ ul li a:hover{
 .footerdiv{
   position: relative;
   margin: 0 auto;
-  padding: 0 200px;
   color:#968A7A;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .footerboxs {
   display: inline;
   float: left;
-  width: 300px;
+  width: 30%;
   height: 150px;
   margin: 25px 10px 0 10px;
 }
@@ -113,7 +114,9 @@ ul li a:hover{
   border-bottom: 1px solid;
   padding-bottom: 10px;
   margin-bottom: 10px;
+  display: inline-block;
 }
+
 .media {
   margin-top: 30px;
   text-align: center;
