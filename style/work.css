@@ -7,7 +7,7 @@ body {
   width: 100vw
 }
 .inwork{
-  background-image: url("images/workpage.png");
+  background-image: url("../images/workpage.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
