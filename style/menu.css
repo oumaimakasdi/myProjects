@@ -67,56 +67,123 @@ ul li a:hover{
   color: black;
 }
 #footer{
-  background-color: #E5DEFF;
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 180px;
   font-family: 'Quicksand', sans-serif;
+  color:#968A7A;
+
 }
 
 .footerdiv{
   position: relative;
   margin: 0 auto;
-  color:#968A7A;
+
   padding-left: 10%;
+  padding-right: 10%;
+r$
 }
 .footerboxs {
   display: inline;
   float: left;
-  width: 30%;
-  height: 150px;
-  margin: 25px 10px 0 10px;
+
+  width: 31.5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
 }
 .footerdiv p{
   display: inline-block;
   line-height: 25px;
   font-size:15px;
 }
+
 .footer1 li{
   list-style: none;
-  line-height: 30px;
+  line-height: 15%;
+}
+.footer1 li a{
+  position: relative;
+  text-decoration: none;
+
+}
+.footer1 li:nth-child(2) a:hover{
+  color: #70675B;
+}
+.footer1 li:nth-child(3) a:hover{
+  color: #70675B;
 }
 .footer1 img{
-  width: 15px;
+  width: 5%;
   vertical-align: middle;
 }
 .footer2 h3{
   text-align:center;
 }
-.footer2 img{
-  width:35px;
-  margin-right:10px;
-  margin-left: 10px;
-}
+
 .footer1 h3,.footer3 h3{
   font-family: 'Quicksand', sans-serif;
   border-bottom: 1px solid;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 3%;
+  margin-bottom: 3%;
+}
+/*----------icons au milieu--------------------*/
+.footer2 ul {
+  position: relative;
+  padding: 0;
+  margin-top:10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .footer2 ul li{
+   list-style: none;
+}
+ .footer2 ul li a{
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width:10px;
+ height: 50px;
+ border-radius: 50%;
+ text-decoration: none;
+ font-size: 25px;
+ color:#968A7A;
+}
+.footer2 ul li a:hover{
+ color:#fff;
 }
 
-.media {
-  margin-top: 30px;
-  text-align: center;
+.footer2 ul li a::before{
+ content: '';
+ position: absolute;
+ top: 0;
+ right: 0;
+ left: 0;
+ bottom: 0;
+ background-color: #000;
+ border-radius: 50%;
+ z-index:-1;
+ transform:scale(0);
+ transition:0.5s;
+}
+
+.footer2 ul li a:hover::before{
+ transform:scale(1);
+}
+.footer2 ul li:nth-child(1) a:hover:before{
+ background:#4267B2;
+}
+ .footer2 ul li:nth-child(2) a:hover::before{
+ background:#C13584;
+}
+.footer2 ul li:nth-child(3) a:hover::before{
+ background:#4AC959;
+}
+
+.footer2 ul li:nth-child(4) a:hover::before{
+ background:#BD081C;
+
 }
