@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 137af46ddb404a109b5ec69c456a6f9400feca82
 
 .container{
    overflow: hidden;
@@ -16,8 +20,14 @@
   height: auto;
   background-color: #dffd;
 }
+<<<<<<< HEAD
 .text *{
   height: 33.33%;
+=======
+
+.text > div {
+  height: 33.333%;
+>>>>>>> 137af46ddb404a109b5ec69c456a6f9400feca82
 }
 .text1{
   background-color: green;
