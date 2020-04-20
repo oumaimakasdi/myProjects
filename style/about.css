@@ -2,10 +2,6 @@
   margin: 0;
   padding: 0;
 }
-body {
-  height: 100vh;
-  width: 100vw;
-}
 
 .container{
    overflow: hidden;
@@ -19,6 +15,9 @@ body {
   margin-right: 8%;
   height: auto;
   background-color: #dffd;
+}
+.text *{
+  height: 33.33%;
 }
 .text1{
   background-color: green;
