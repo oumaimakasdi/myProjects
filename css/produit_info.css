@@ -1,0 +1,141 @@
+body {
+  background-color: #FAF9F6;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.image {
+  width: 50%;
+  height: auto;
+  margin: 12% auto 5%;
+  padding-top: 50px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.image img:last-child {
+  display: none;
+}
+
+.image:hover img:first-child {
+  display: none;
+}
+
+.image:hover img:last-child {
+  display: inline-block;
+}
+
+.overview {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto 5%;
+  padding-bottom: 20px;
+  color: #575553
+}
+
+.overview h1, .overview h2, .overview h3 {
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+.overview h1{
+  font-size: 30px;
+}
+.description {
+  display: inline-block;
+  margin: 0 auto 5%;
+  line-height: 1.5em;
+
+}
+
+.button {
+  display: block;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px;
+  margin: auto;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  width: 200px;
+  line-height: 2em;
+  background:#C56C6C;
+}
+
+.button:hover {
+  background: #B06161;
+}
+
+.info {
+  width: 90%;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border: solid ;
+  border-width: thin;
+  border-color: #E6CDC4;
+  color: #575553;
+  margin: 0 auto;
+  overflow: hidden;
+
+}
+
+.info h3 {
+  line-height: 36px;
+  padding: 5px 0 5px 20px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.specs {
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 0 0 0 10px;
+  font-size: 15px;
+
+}
+
+.specs li {
+  padding: 0 0 5px 0;
+}
+
+.specs h5 {
+  display: inline;
+  font-family: 'Bree Serif', serif;
+  font-size: 15px;
+}
+.moreimages{
+  display: none;
+}
+@media screen and (max-width: 1050px){
+  .image {
+    width: 90%;
+    height: auto;
+    margin: 10% auto 5%;
+    padding-top: 50px;
+  }
+  .overview,.info {
+    width: 90%;
+    font-size: 22px;
+  }
+  .moreimages{
+    width: 95%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .moreimages img{
+    margin: 25px 10px;
+    width: 47%;
+
+  }
+}

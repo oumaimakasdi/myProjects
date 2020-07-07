@@ -1,27 +1,32 @@
 # Projet site WEB Unicraft
 
-## Création du site WEB :
+## Créateurs du site WEB :
 
 	-KASDI Oumaima
+	-LAABI Amine
 
 ## Présentation du site :
 
-Le site web est toujours une idée mais une idée avec un très jolie logo.
+Unicraft est un portfolio artistique pour la broderie à la main, il presente les traveaux de la brodeuse Oumaima.
+Le nom est une combinaison de deux mots "Unique" + "Craft" se qui signifie une activité faite à la main et qui est absolument unique.
+Le projet peut Se développer en un store des produits fabriqués.
 
 ## Avancement au jour le jour :
 
-Modification de Oum le 05/04/20
+Modification de Oum le 20/04/20
 
-  - Création du logo
-  - Creation de la page menu.html
-  - Creation du nav
-  - Création du footer
-  - Création du CSS pour les èlements d'avant
+  - Creation de la page Work
+  - Creation de la feuille de style work.css
+  - Creation de la page about
+  - Creation de la feuille de style menu.css
 
-Modification de Amine le 05/04/20
+
+Modification de Amine le 20/04/20
 
   - Réorganisation des fichiers
   - Vérification de la validation du fichier CSS et HTML
+  - Creation de la page Contact.html
+  - Creation de la feuille de style contact.css
 
 ## Liens utiles :
 

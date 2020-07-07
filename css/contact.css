@@ -1,0 +1,160 @@
+body{
+  background-color: #FAF9F6;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+h1 , h2 {
+  text-align: center;
+  font-weight:lighter;
+  margin-top: 2%;
+}
+
+#title1 {
+  color: grey;
+  font-weight: lighter;
+font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  margin-top: 100px;
+
+}
+
+.container >div {
+    width:  100%;
+}
+
+.container {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+#title_get_in_touch {
+  border-bottom: solid;
+  border-width: thin;
+  margin-bottom : 5%;
+  color: #8F4343;
+  border-color: #8F4343;
+}
+.get_in_touch{
+  margin-top:7%;
+}
+.get_in_touch > * {
+  width : 60%;
+  margin: 0 auto;
+}
+
+.get_in_touch > p {
+  margin-top : 5%;
+  line-height:150%;
+
+}
+.form{
+  margin-top: 3%;
+  margin-right:3%;
+}
+form {
+  display: flex;
+  flex-direction : column;
+  width: 100%;
+  float: left
+}
+
+form * {
+  margin: 10%;
+  margin-top:2%;
+  margin-bottom: 2.5%;
+  height: 15%;
+  padding-left : 1.5%;
+  border: solid ;
+  border-width: thin;
+  border-color: #DEDECE;
+}
+::placeholder{
+  color:#C7C5B3;
+}
+button {
+  border-radius: 12px;
+  width : 20%;
+  padding: 2%;
+  text-align: center;
+  margin-left: auto;
+  background-color:#C56C6C;
+  color: white;
+  font-size: 90%;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color:#B06161;
+}
+
+textarea {
+  resize: none;
+  font: inherit;
+  padding-top : 2%;
+}
+.one_per_line:nth-child(1){
+  padding:2%;
+  background-color: #FFFFF1;
+}
+.one_per_line:nth-child(2){
+  padding:2%;
+  background-color: #FFFFF1
+}
+.one_per_line:nth-child(3){
+  background-color: #FFFFF1;
+}
+/*----------icons au milieu--------------------*/
+
+
+.icones ul {
+  position: relative;
+  padding: 0;
+  margin-top:10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.icones ul li{
+   list-style: none;
+}
+.icones ul li img{
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width:50%;
+ -moz-transition: all 0.3s;
+ -webkit-transition: all 0.3s;
+ transition: transform .2s;
+}
+.icones ul li img:hover{
+  transform: scale(1.2);
+}
+
+@media (max-width: 880px) {
+  #title1{
+    display: none;
+  }
+  .container{
+    width: 100%;
+    display: inline-block;
+    justify-content: space-evenly;
+  }
+  #title_get_in_touch {
+    margin-top: 200px;
+    margin-bottom : 8%;
+
+  }
+  .get_in_touch{
+    margin-bottom: 15%
+  }
+  .get_in_touch > p {
+    text-align: center;
+    line-height: 1.7em;
+
+  }
+
+}
