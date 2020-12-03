@@ -7,9 +7,9 @@
 
 ## Présentation du site :
 
-Unicraft est un portfolio artistique pour la broderie à la main, il presente les traveaux de la brodeuse Oumaima.
+Unicraft est un portfolio artistique pour la broderie à la main.
 Le nom est une combinaison de deux mots "Unique" + "Craft" se qui signifie une activité faite à la main et qui est absolument unique.
-Le projet peut Se développer en un store des produits fabriqués.
+Le projet peut Se développer en un store de vente.
 
 ## Avancement au jour le jour :
 
